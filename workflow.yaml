@@ -1,5 +1,7 @@
-on: push
-name: 🚀 Deploy  Haalalsell 🚀
+on:
+  push:
+    branches: main
+name: 🚀 Deploy  Brainicsoft Digital 🚀
 jobs:
   web-deploy:
     name: 🎉  Build and Deploy
